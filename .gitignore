@@ -1,3 +1,4 @@
+# Java-specific files
 # Compiled class file
 *.class
 
@@ -22,3 +23,66 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Python-specific files
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+
+# Cache and logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.cache/
+*.sqlite3
+*.db
+
+# Testing
+.tox/
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Distribution / Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+pip-wheel-metadata/
+*.manifest
+
+# Rust-specific files
+# Compilation artifacts
+target/
+
+# Rust package manager
+Cargo.lock
+
+# IDE files
+.idea/
+.vscode/
+*.rs.bk
+
+# Logs and debug files
+*.log
+
+# Generated documentation
+doc/
+
+# Rust Clippy linter outputs
+*.profdata
+*.profraw
