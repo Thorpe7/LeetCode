@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 def second_highest_salary(employee: pd.DataFrame) -> pd.DataFrame:
-    
+
     employee.drop_duplicates('salary', inplace=True)
     if len(employee['salary'].unique()) < 2:
         return pd.DataFrame({'SecondHighestSalary':[np.NaN]})
